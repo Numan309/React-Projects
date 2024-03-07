@@ -1,0 +1,71 @@
+.style{
+    display:flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+}
+.style ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+:root{
+    --red: red;
+    --grey:black;
+}
+*{
+    margin: 0;
+}
+.btn{
+    all: unset;
+    padding: 6px 16px;
+    background: var(--red);
+    height: 32px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.hero{
+    display: flex;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    height: 0%calc(100vh - 72px);
+    
+}
+.hero h1{
+    font-size: 90px;
+    line-height: 102px;
+    font-weight: 800;
+}
+.hero p{
+    font-weight: 600;
+    color: var(--grey);
+}
+.hero-btn{
+    display: flex;
+    gap: 40px;
+    
+}
+.primary-btn{
+    background: red;
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px rebeccapurple;
+    border-radius: 15px;
+    
+}
+.secondary-btn{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+}
+.brand-icon{
+    display: flex;
+    gap: 13px;
+}
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}

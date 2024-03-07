@@ -1,0 +1,29 @@
+.user{
+    width:90%;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 1%;
+    height: 10vh;
+    align-items: center;
+    font-size: 25px;
+  }
+#wish{
+    width: 20%;
+    height: 30px;
+}
+.btn{
+    height: 37px;
+    margin-left: 1px;
+    border-radius: 10%;
+    width: 60px;
+    background-color: aqua;
+}
+.clear{
+    height: 37px;
+    margin-left: 1px;
+    border-radius: 10%;
+    width: 60px;
+    background-color: aqua;
+
+
+}
